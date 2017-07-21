@@ -1,4 +1,41 @@
 $(document).ready(function(){
+
+  $("#happyButton").click(function() {
+    $("body").css('background-color', yellow());
+    });
+    $("#sadButtons").click(function() {
+      $("body").css('background-color', blue());
+      });
+
+      $("#green").click(function(){
+        $("h1").css('color', green());
+      });
+
+      $("#blue").click(function(){
+        $("h1").css('color', blue());
+      });
+
+      $("#red").click(function(){
+        $("h1").css('color', red());
+      });
+
+      $("#puppy").hovers(function(){
+        updateImage ();
+      });
+
+      $("#puppy").off("hovers"(){
+      });
+
+      $(".change").doubleclick(function(){
+        $("change").html('text', changeText());
+      });
+
+      $("document").scrolls(function(){
+        $("footer").css('text', changeText());
+      });
+
+});
+
 /* CHALLENGE #1:
     - when a user clicks on the happy button, make the background of the page yellow
     - when a user clicks on the sad button, make the background of the page blue */
@@ -23,7 +60,3 @@ $(document).ready(function(){
 
 /* CHALLENGE #5:
     - when a user scrolls, add a new image of a dog of your choice to the bottom of the page.*/
-
-
-
-});
