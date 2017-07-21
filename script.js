@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
   $("#happyButton").click(function() {
-    $("body").css('background-color', yellow());
+    $("body").css('background-color', 'yellow');
     });
-    $("#sadButtons").click(function() {
+     $("#sadButtons").click(function() {
       $("body").css('background-color', blue());
       });
-
+ 
       $("#green").click(function(){
         $("h1").css('color', green());
       });
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
       $("document").scrolls(function(){
         $("footer").css('image', NewImg());
-      });
+      });*/
 
 });
 
