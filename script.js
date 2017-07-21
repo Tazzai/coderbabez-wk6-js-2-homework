@@ -31,7 +31,7 @@ $(document).ready(function(){
       });
 
       $("document").scrolls(function(){
-        $("footer").css('text', changeText());
+        $("footer").css('image', NewImg());
       });
 
 });
